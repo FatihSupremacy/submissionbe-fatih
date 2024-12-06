@@ -10,6 +10,6 @@ COPY . .
 
 EXPOSE 8080
 
-ENV MODEL_URL = "SET YOUR MODEL URL!"
+ENV MODEL_URL = "https://storage.googleapis.com/bucketsubmission-1/model-in-prod/model.json"
 
 CMD ["npm","start"]
